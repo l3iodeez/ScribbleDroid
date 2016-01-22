@@ -1,6 +1,6 @@
 # ScribbleShips
 
-  This repo holds the PhoneGap container for Scribbleships. It uses a git submodule to pull in the game code and provides for PhoneGap configuration. 
+  This repo holds the Cordova container for Scribbleships. It uses a git submodule to pull in the game code and provides for PhoneGap configuration.
 
   ScribbleShips (formerly JSAsteroids) is an implementation of the classic game Asteroids in pure JS and HTML5. It uses an HTML5 canvas element to draw the visual effects, and implements prototypical inheritance for a number of Javascipt object prototypes.
 

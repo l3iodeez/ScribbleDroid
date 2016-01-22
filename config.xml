@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.scribbleships.game" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="game.scribbleships" version="1.0.0">
   <name>Scribbleships</name>
   <description>Simple 2d Shooter game.</description>
-  <author href="http://phonegap.com" email="l3ioddez@gmail.com">DZG</author>
+  <author href="http://www.scribbleships.com" email="l3ioddez@gmail.com">Dhang Productions</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="landscape"/>
@@ -36,7 +36,7 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="icon.png"/>
+  <icon src="www/res/icon/android/icon-96-xhdpi.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
@@ -53,5 +53,6 @@
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
+
 
 </widget>

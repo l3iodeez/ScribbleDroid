@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>ScribbleShips: Pure JavaScript Daydream</title>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  </head>
+  <body>
+
+    <header>
+
+    </header>
+
+    <script src="lib/movingObject.js"></script>
+    <script src="lib/util.js"></script>
+    <script src="lib/ship.js"></script>
+    <script src="lib/asteroid.js"></script>
+    <script src="lib/bullet.js"></script>
+    <script src="lib/game.js"></script>
+    <script src="lib/gameView.js"></script>
+    <script src="lib/keymaster.js"></script>
+    <script src="lib/powerup.js"></script>
+    <script src="lib/plugin.js"></script>
+    <!-- <script type="text/javascript" src="/socket.io/socket.io.js"></script> -->
+    <link href="css/asteroids.css" rel="stylesheet" type="text/css" />
+
+    <section class="menu hidden" id="menu">
+      <div class="text-container">
+        <h1>Welcome to Scribbleships 101</h1>
+        <ul>
+          <li>Instructions:</li>
+          <li>Use your mouse to pilot your ship.</li>
+          <li>Click to shoot.</li>
+          <li>When you have enough points, find the exit to move to the next level.</li>
+          <li>Press P to pause the game.</li>
+          <br>
+          <li style="color:yellow;">* Large asteroids may take more than one shot to crack.</li>
+        </ul>
+      </div>
+      <div class="button-container">
+        <button id="start">Start</button>
+        <button class="hidden" id="resume">Resume</button>
+        <button class="hidden" id="restart">Restart</button>
+      </div>
+    </section>
+      <canvas class="canvas" id ="game-canvas"></canvas>
+      <section class="game-stats" id="stats-section"></section>
+
+
+    <script>
+    (function game() {
+      var canvasEl = document.getElementById("game-canvas");
+      var statsEl = document.getElementById("stats-section");
+      new Asteroids.GameView().start(canvasEl, statsEl);
+
+      // var socket = io.connect('/');
+      // //Now we can listen for that event
+      // socket.on('onconnected', function( data ) {
+      //     //Note that the data is the object we sent from the server, as is. So we can assume its id exists.
+      //     console.log( 'Connected successfully to the socket.io server. My server side ID is ' + data.id );
+      // });
+
+    }())
+   </script>
+  </body>
+</html>

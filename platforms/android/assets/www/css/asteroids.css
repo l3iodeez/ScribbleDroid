@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html, body, section, article,
+h1, h2, p, strong, em, a, ul, li, button{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+}
+.game-stats{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: yellow;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
+}
+
+.game {
+}
+.canvas {
+  background-image: url("../image/woodbackground.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  background-image: url("../image/Chalkboard.png");
+  background-repeat: no-repeat;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 639px;
+  height: 397px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: calc(50% - 250px);
+  padding: 25px 30px 35px 32px;
+}
+
+.hidden {
+  display: none;
+}
+.text-container {
+  margin: 10px;
+  font-size: 16px;
+  color: #FFF;
+  padding-left: 20px;
+}
+.text-container h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: left;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+.button-container {
+  text-align: center;
+  font: inherit;
+  padding-top: 20px;
+}
+.button-container {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+  color: #FFF;
+  margin: auto;
+
+}
+section.android {
+  width: 346px;
+  height: 200px;
+  left: calc(50% - 176px);
+  top: calc(50% - 100px);
+  background-size: cover;
+}
+section.android h1 {
+  font-size: 10px;
+}
+section.android li {
+  font-size: 8px;
+}
+section.android button {
+  font-size: 8px;
+  text-align:  center;
+}
+section.android .button-container {
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 10px;
+
+}
+button {
+  display: inline-block;
+  height: 35px;
+  width: 125px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+}
+.button-container button:hover {
+  color: #FFEB3B;
+}
