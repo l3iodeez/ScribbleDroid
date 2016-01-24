@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="game.scribbleships" version="1.0.0">
   <name>Scribbleships</name>
   <description>Simple 2d Shooter game.</description>
-  <author href="http://www.scribbleships.com" email="l3ioddez@gmail.com">Dhang Productions</author>
+  <author href="http://www.scribbleships.com" email="l3iodeez@gmail.com">Dhang Productions</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="landscape"/>
