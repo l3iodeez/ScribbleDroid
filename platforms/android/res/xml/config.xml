@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.scribbleships.game" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="game.scribbleships" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -8,8 +8,9 @@
     <allow-intent href="market:*" />
     <name>Scribbleships</name>
     <description>Simple 2d Shooter game.</description>
-    <author email="l3ioddez@gmail.com" href="http://phonegap.com">DZG</author>
+    <author email="l3iodeez@gmail.com" href="http://www.scribbleships.com">Dhang Productions</author>
     <content src="index.html" />
+    <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
@@ -54,5 +55,4 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="permissions" value="none" />
 </widget>
