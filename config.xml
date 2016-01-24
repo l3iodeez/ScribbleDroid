@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="game.scribbleships" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="game.scribbleships" version="1.0.1">
   <name>Scribbleships</name>
   <description>Simple 2d Shooter game.</description>
   <author href="http://www.scribbleships.com" email="l3iodeez@gmail.com">Dhang Productions</author>
